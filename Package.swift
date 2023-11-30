@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "HTTPParserC",
+    name: "LeanCodeHTTPParserC",
     platforms: [
         .iOS(.v9),
         .tvOS(.v9),
@@ -12,13 +12,13 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "HTTPParserC",
-            targets: ["HTTPParserC"]
+            name: "LeanCodeHTTPParserC",
+            targets: ["LeanCodeHTTPParserC"]
         )
     ],
     targets: [
         .target(
-            name: "HTTPParserC",
+            name: "LeanCodeHTTPParserC",
             path: "Sources",
             publicHeadersPath: ""
         )

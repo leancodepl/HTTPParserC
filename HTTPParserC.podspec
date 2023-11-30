@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'HTTPParserC'
+  s.name = 'LeanCodeHTTPParserC'
   s.version = '2.9.4'
   s.license = 'MIT'
 
@@ -12,11 +12,10 @@ Pod::Spec.new do |s|
     (in a web server that is per connection).
   DESC
 
-  s.author = 'Building42'
-  s.homepage = 'https://github.com/Building42/HTTPParserC'
-  s.documentation_url = 'https://github.com/nodejs/http-parser'
+  s.author = 'LeanCode'
+  s.homepage = 'https://github.com/leancodepl/HTTPParserC'
 
-  s.source = { :git => "https://github.com/Building42/HTTPParserC.git", :tag => s.version }
+  s.source = { :git => "https://github.com/leancodepl/HTTPParserC.git", :tag => s.version }
   s.source_files = 'Sources/http_parser.{h,c}'
   s.preserve_paths = 'Sources/http_parser.{h,c}'
 
